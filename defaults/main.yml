@@ -1,0 +1,34 @@
+---
+# defaults file for development_automation
+
+fedora_dev:
+  - "Development Tools" 
+  - "Development Libraries"
+  - "vim"
+
+archlinux_dev:
+  - git
+  - "podman"
+  - "cockpit-podman"
+  - "buildah"
+  - "cni-plugins"
+  - "netavark"
+  - "vim"
+  - discord
+  - ncurses
+  - libconfig
+  - alsa-utils
+  - cool-retro-term
+  - devtools
+  - gcc
+  - cmake
+  - base-devel
+  - meson
+  - ffnvcodec-headers
+  - boost
+  - glm
+  - rapidjson
+  - nasm
+
+
+
