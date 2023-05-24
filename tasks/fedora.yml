@@ -1,0 +1,14 @@
+---
+
+  - name: "Install Fedora Repositories"
+    community.general.ini_file:
+      path:       /etc/yum.repos.d/almalinux-powertools.repo
+      section:    powertools
+      option:     enabled
+      value:      1
+      create:     no
+
+  - name: Install Fedora Packages
+    ansible.builtin.dnf:
+      name: "{{ fedora_dev }}"
+      state: present
