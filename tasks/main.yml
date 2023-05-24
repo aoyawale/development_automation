@@ -1,0 +1,11 @@
+---
+# tasks file for development_automation
+
+  - name: Run the fedora Automation
+    include_tasks: fedora.yml
+    when: ansible_distribution == "Fedora"
+
+  - name: Run the archlinux Automation
+    include_tasks: archlinux.yml
+    when: ansible_distribution == "Archlinux"
+
