@@ -29,6 +29,16 @@ fedora_dev:
 archlinux_dev:
   - "git"
   - "go"
+  - "boost"
+  - "glm"
+  - "rapidjson"
+  - "wxwidgets-gtk3"
+  - "nasm"
+  - "libicns"
+  - "krita"
+  - "dotnet-runtime"
+  - "dotnet-sdk"
+  - "aspnet-runtime"
   - "podman"
   - "podman-dnsname"
   - "qemu-user-static"
@@ -50,10 +60,6 @@ archlinux_dev:
   - base-devel
   - meson
   - ffnvcodec-headers
-  - boost
-  - glm
-  - rapidjson
-  - nasm
 
 
 
