@@ -34,6 +34,11 @@ archlinux_dev:
   - "rapidjson"
   - "wxwidgets-gtk3"
   - "nasm"
+  - "minikube" 
+  - "libvirt" 
+  - "qemu-desktop" 
+  - "dnsmasq"
+  - "iptables-nft"
   - "libicns"
   - "krita"
   - "dotnet-runtime"
@@ -49,17 +54,18 @@ archlinux_dev:
   - "cni-plugins"
   - "netavark"
   - "vim"
-  - discord
-  - ncurses
-  - libconfig
-  - alsa-utils
-  - cool-retro-term
-  - devtools
-  - gcc
-  - cmake
-  - base-devel
-  - meson
-  - ffnvcodec-headers
+  - "discord"
+  - "ncurses"
+  - "libconfig"
+  - "alsa-utils"
+  - "cool-retro-term"
+  - "devtools"
+  - "gcc"
+  - "cmake"
+  - "base-devel"
+  - "meson"
+  - "ffnvcodec-headers"
+  - "neofetch"
 
 
 
