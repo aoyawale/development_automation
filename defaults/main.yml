@@ -29,6 +29,8 @@ fedora_dev:
 archlinux_dev:
   - "git"
   - "go"
+  - "fmt"
+  - "pugixml"
   - "boost"
   - "glm"
   - "rapidjson"
