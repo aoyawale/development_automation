@@ -1,6 +1,12 @@
 ---
 # defaults file for development_automation
 
+git_repositories:
+  - "https://aur.archlinux.org/rider.git"
+  - "https://aur.archlinux.org/dotnet-core-5.0-bin.git"
+  - "https://aur.archlinux.org/unityhub.git"
+  - "https://aur.archlinux.org/vscodium.git"
+  - "https://aur.archlinux.org/powershell.git"
 fedora_dev:
   - "Development Tools" 
   - "Development Libraries"
@@ -28,6 +34,7 @@ fedora_dev:
 
 archlinux_dev:
   - "git"
+  - "flatpak-builder"
   - "go"
   - "fmt"
   - "pugixml"
@@ -37,7 +44,9 @@ archlinux_dev:
   - "wxwidgets-gtk3"
   - "nasm"
   - "minikube" 
-  - "libvirt" 
+  - "libvirt"
+  - "lttng-ust"
+  - "patchelf"
   - "qemu-desktop" 
   - "dnsmasq"
   - "iptables-nft"
