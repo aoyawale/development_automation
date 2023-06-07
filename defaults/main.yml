@@ -1,12 +1,30 @@
 ---
 # defaults file for development_automation
 
+stardew_valley_mods:
+  - "https://www.nexusmods.com/stardewvalley/mods/1915"
+  - "https://www.nexusmods.com/stardewvalley/mods/239"
+  - "https://www.nexusmods.com/stardewvalley/mods/541"
+  - "https://www.nexusmods.com/stardewvalley/mods/1401"
+  - "https://www.nexusmods.com/stardewvalley/mods/1150"
+  - "https://www.nexusmods.com/stardewvalley/mods/2080"
+  - "https://www.nexusmods.com/stardewvalley/mods/1738"
+  - "https://www.nexusmods.com/stardewvalley/mods/9969"
+  - "https://www.nexusmods.com/stardewvalley/mods/3167"
+  - "https://www.nexusmods.com/stardewvalley/mods/3872"
+  - "https://www.nexusmods.com/stardewvalley/mods/3169"
+  - "https://www.nexusmods.com/stardewvalley/mods/14764"
+  - "https://www.nexusmods.com/stardewvalley/mods/48"
+
 git_repositories:
   - "https://aur.archlinux.org/rider.git"
   - "https://aur.archlinux.org/dotnet-core-5.0-bin.git"
   - "https://aur.archlinux.org/unityhub.git"
   - "https://aur.archlinux.org/vscodium.git"
   - "https://aur.archlinux.org/powershell.git"
+  - "https://aur.archlinux.org/open-dyslexic-fonts.git"
+  - "https://aur.archlinux.org/mu-editor.git"
+  
 fedora_dev:
   - "Development Tools" 
   - "Development Libraries"
@@ -57,6 +75,7 @@ archlinux_dev:
   - "aspnet-runtime"
   - "podman"
   - "podman-dnsname"
+  #- "openssl1.1"
   - "qemu-user-static"
   - "qemu-user-static-binfmt"
   - "cockpit-podman"
