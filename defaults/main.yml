@@ -1,6 +1,17 @@
 ---
 # defaults file for development_automation
 
+create_users: #archlinux specific
+  - name: myname
+    groups:
+      - libvirt
+      - sys
+      - network
+      - power
+      - lp
+      - wheel
+
+
 stardew_valley_mods:
   - "https://www.nexusmods.com/stardewvalley/mods/1915"
   - "https://www.nexusmods.com/stardewvalley/mods/239"
@@ -51,6 +62,7 @@ fedora_dev:
   - "https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-38.noarch.rpm"
 
 archlinux_dev:
+  - "openbsd-netcat"
   - "git"
   - "flatpak-builder"
   - "go"
