@@ -34,7 +34,7 @@ git_repositories:
   - "https://aur.archlinux.org/vscodium.git"
   - "https://aur.archlinux.org/powershell.git"
   - "https://aur.archlinux.org/open-dyslexic-fonts.git"
-  - "https://aur.archlinux.org/mu-editor.git"
+  - "https://github.com/Tuxemon/Tuxemon.git"
   
 fedora_dev:
   - "Development Tools" 
@@ -63,6 +63,10 @@ fedora_dev:
 
 archlinux_dev:
   - "openbsd-netcat"
+  - "qt6-5compat"
+  - "java-runtime"
+  - "quazip-qt6" 
+  - "tomlplusplus" 
   - "git"
   - "flatpak-builder"
   - "go"
