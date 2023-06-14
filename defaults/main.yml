@@ -27,7 +27,7 @@ stardew_valley_mods:
   - "https://www.nexusmods.com/stardewvalley/mods/14764"
   - "https://www.nexusmods.com/stardewvalley/mods/48"
 
-git_repositories:
+arch_git_repositories:
   - "https://aur.archlinux.org/rider.git"
   - "https://aur.archlinux.org/dotnet-core-5.0-bin.git"
   - "https://aur.archlinux.org/unityhub.git"
@@ -35,10 +35,17 @@ git_repositories:
   - "https://aur.archlinux.org/powershell.git"
   - "https://aur.archlinux.org/open-dyslexic-fonts.git"
   - "https://github.com/Tuxemon/Tuxemon.git"
+  - "https://aur.archlinux.org/playonlinux.git"
+  - "https://aur.archlinux.org/qt5-webkit.git"
+  - "https://aur.archlinux.org/davinci-resolve.git"
+  - "https://aur.archlinux.org/libva-nvidia-driver.git"
+  - "https://aur.archlinux.org/mono-basic.git" #solves issue with VLC player crashing when using nvidia drivers have to remove libva-vdpau-driver first. https://forum.manjaro.org/t/vlc-crashes-when-tryng-to-play-video/135640/5
   
 fedora_dev:
   - "Development Tools" 
   - "Development Libraries"
+  - "mono-msbuild"
+  - "mono-tools"
   - "btrfs-progs-devel"
   - "conmon"
   - "containernetworking-plugins"
@@ -64,6 +71,7 @@ fedora_dev:
 archlinux_dev:
   - "openbsd-netcat"
   - "qt6-5compat"
+  - "mono"
   - "java-runtime"
   - "quazip-qt6" 
   - "tomlplusplus" 
