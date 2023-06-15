@@ -1,22 +1,19 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+This role was originally made to automate Fedora and Archlinux installations with all the tools I need for developing in different environments and using multiple programming languages. But like most Ansible automation content, its a living document. I wanted to show how Ansible automation can be used as a document for beginners. The tasks level can be confusing at first but, the `defaults/main.yml` has great information. 
+
+In here I put every git repository that I would need and all the packages needed to build all the code to the programs I use. There's a large number of git repositories due to the fact that Archlinux or flavors (Manjaro) based on it used the same system packaging. A lot of software is not included and has to be made into packages to be installed with `pacman`.
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
-
 Role Variables
 --------------
-
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
 
 Dependencies
 ------------
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
 
 Example Playbook
 ----------------
@@ -34,5 +31,4 @@ BSD
 
 Author Information
 ------------------
-
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+Adebisi Oyawale (aoyawale)
