@@ -39,6 +39,7 @@ arch_git_repositories:
   - "https://aur.archlinux.org/qt5-webkit.git"
   - "https://aur.archlinux.org/davinci-resolve.git"
   - "https://aur.archlinux.org/libva-nvidia-driver.git"
+  - "https://aur.archlinux.org/python-kafka.git"
   - "https://aur.archlinux.org/mono-basic.git" #solves issue with VLC player crashing when using nvidia drivers have to remove libva-vdpau-driver first. https://forum.manjaro.org/t/vlc-crashes-when-tryng-to-play-video/135640/5
   
 fedora_dev:
@@ -51,6 +52,7 @@ fedora_dev:
   - "libidn11"
   - "libjpeg6-turbo"
   - "libxp"
+  - "ca-certificatespy "
   - "btrfs-progs-devel"
   - "conmon"
   - "containernetworking-plugins"
@@ -79,7 +81,8 @@ archlinux_dev:
   - "mono"
   - "java-runtime"
   - "quazip-qt6" 
-  - "tomlplusplus" 
+  - "tomlplusplus"
+  - "python-setuptools" 
   - "git"
   - "flatpak-builder"
   - "go"
